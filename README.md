@@ -6,6 +6,8 @@ Professional data visualization tool for generating storage usage charts from Ca
 
 Carina Charts creates beautiful, publication-ready visualizations of storage usage data across PI (Principal Investigator) and User organizations. The tool generates multiple chart types with Stanford branding and supports archiving of previous outputs.
 
+## RUN IT: ./make_charts.sh
+
 ## 🎯 Features
 
 - **Multiple Chart Types**
@@ -65,7 +67,7 @@ carina_charts/                       # Main project directory
 
 ### 1. Prerequisites
 
-- Python 3.10 or higher
+- Python 3.9 or higher
 - Conda (recommended) or pip
 
 ### 2. Installation
@@ -74,7 +76,7 @@ carina_charts/                       # Main project directory
 
 ```bash
 # Create and activate environment
-conda create -n charts python=3.10 -y
+conda create -n charts python=3.9 -y
 conda activate charts
 
 # Install dependencies
@@ -105,7 +107,7 @@ python main.py
 Or use the provided bash script:
 
 ```bash
-chmod +x run_charts.sh
+chmod +x make_charts.sh
 ./run_charts.sh
 ```
 
