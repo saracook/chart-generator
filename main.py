@@ -58,8 +58,8 @@ def main():
                         help='Which data to process (default: both)')
     parser.add_argument('--colors', 
                         choices=['stanford', 'colorblind', 'viridis', 'high_contrast'],
-                        default='high_contrast',
-                        help='Color palette to use (default: high_contrast)')
+                        default='stanford',
+                        help='Color palette to use (default: stanford)')
     parser.add_argument('--min-pct-label', 
                         type=float, 
                         default=2.0,

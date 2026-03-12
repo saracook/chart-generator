@@ -79,17 +79,20 @@ def configure_fonts():
 
 STANFORD_COLORS = [
     '#8C1515',  # Cardinal Red
-    '#007C92',  # Palo Alto
-    '#175E54',  # Teal
-    '#B1040E',  # Dark Red
-    '#2E2D29',  # Cool Grey
-    '#53565A',  # Stone
-    '#5F574F',  # Warm Grey
-    '#0098DB',  # Bright Blue
+    '#007C92',  # Lagunita
+    '#E04F39',  # Spirited
+    '#175E54',  # Palo Alto
+    '#FEC51D',  # Yellow (dk)
+    '#734675',  # Lt Plum
+    '#016895',  # sky
     '#E98300',  # Poppy
-    '#8B0000',  # Dark Red 2
+    '#B1040E',  # Dark Red
+    '#0098DB',  # Bright Blue
+    '#D1660F',  # Dark Poppy
     '#006B54',  # Green
     '#4D4F53',  # Dark Grey
+    '#59B3A9',  # lt palo verde
+
 ]
 
 COLORBLIND_SAFE = [
