@@ -5,8 +5,9 @@ Test script to verify Source Sans font loads correctly
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 import os
-
-FONT_PATH = '/projects/bprogers/main/saracook/.fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf'
+from config import (
+    FONT_PATH
+)
 
 def test_font():
     print(f"Testing font: {FONT_PATH}")

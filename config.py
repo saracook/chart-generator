@@ -21,6 +21,10 @@ OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output')
 # Archive directory for old charts
 ARCHIVE_DIR = os.path.join(OUTPUT_DIR, 'archive')
 
+# Font directory
+
+FONT_DIR = os.path.join(PROJECT_ROOT, '.fonts')
+
 # Create directories if they don't exist
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(ARCHIVE_DIR, exist_ok=True)
@@ -33,8 +37,10 @@ DEFAULT_USER_FILE = os.path.join(DATA_DIR, 'user_organization_totals.txt')
 # FONT CONFIGURATION
 # ============================================================================
 
-# Source Sans font path
-FONT_PATH = '/projects/bprogers/main/saracook/.fonts/Roboto/static/Roboto-Medium.ttf'
+# Roboto font path
+FONT_PATH = os.path.join(FONT_DIR, 'Roboto/static/Roboto-Medium.ttf')
+
+# '/projects/bprogers/main/saracook/carina_charts/.fonts/Roboto/static/Roboto-Medium.ttf'
 
 def configure_fonts():
     """Configure matplotlib to use Roboto font"""
